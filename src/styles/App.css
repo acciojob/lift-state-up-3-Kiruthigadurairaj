@@ -1,1 +1,51 @@
+/* Parent Component Styling */
+.parent {
+    background-color: limegreen;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
 
+/* Child Component Styling */
+.child {
+    padding: 20px;
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+}
+
+/* Different Background Colors for Child Components */
+.child1 {
+    background-color: brown;
+}
+
+.child2 {
+    background-color: gold;
+}
+
+/* Button Styling */
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+/* Selected Option Styling */
+.selected-option {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
